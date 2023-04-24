@@ -8,7 +8,7 @@ const client = ipfsHttpClient('https://ipfs.infura.io:5001/api/v0')
 
 import {
   marketplaceAddress
-} from '../config'
+} from '../../config'
 
 import NFTMarketplace from '../artifacts/contracts/NFTMarketplace.sol/NFTMarketplace.json'
 
